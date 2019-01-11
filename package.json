@@ -1,0 +1,23 @@
+{
+  "name": "react-bot",
+  "version": "1.0.0",
+  "description": "A chat bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mprahlad95/React-bot.git"
+  },
+  "author": "Prahlad Misra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mprahlad95/React-bot/issues"
+  },
+  "homepage": "https://github.com/mprahlad95/React-bot#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "save": "^2.3.3"
+  }
+}
