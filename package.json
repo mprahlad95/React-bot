@@ -9,7 +9,9 @@
   },
   "scripts": {
     "start": "node index.js",
-    "backend": "nodemon index.js"
+    "backend": "nodemon index.js",
+    "frontend": "npm run start --prefix client",
+    "dev": "concurrently \"npm run backend\"  \"npm run start --prefix client\""
   },
   "author": "Prahlad Misra",
   "license": "ISC",
@@ -17,9 +19,12 @@
     "body-parser": "^1.18.3",
     "dialogflow": "^0.7.0",
     "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1",
+    "materialize-css": "^1.0.0",
     "save": "^2.3.3"
   },
   "devDependencies": {
+    "concurrently": "^4.1.0",
     "nodemon": "^1.18.9"
   }
 }
