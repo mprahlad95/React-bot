@@ -9,7 +9,7 @@ const languageCode = config.dialogFlowSessionLanguageCode;
 
 const credentials = {
     client_email: config.googleClientEmail,
-    "private_key": config.googlePrivateKey
+    private_key: config.googlePrivateKey
 };
 
 const sessionClient = new dialogflow.SessionsClient({projectId, credentials});
